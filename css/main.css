@@ -210,11 +210,14 @@ img {
   margin-bottom: 30px;
   align-items: center;
   justify-content: center;
+  fill: var(--color-secondary);
+  outline: red;
 }
 
 .benefits-caption,
 .activity-caption,
-.team-caption {
+.team-caption,
+.client-caption {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -262,7 +265,8 @@ img {
   margin-right: 30px;
 }
 
-.activity-caption {
+.activity-caption,
+.client-caption {
   text-align: center;
 }
 
@@ -312,6 +316,12 @@ img {
 .content-effects {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+/*    clients   */
+
+.client-icon {
+  fill: var(--color-background-primary);
 }
 
 /* footer */
