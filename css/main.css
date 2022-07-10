@@ -11,6 +11,7 @@
   --color-button-secondary: #eeeeee;
   --color-logo: #000000;
   --color-top: #ececec;
+  --color-client: #afb1b8;
 }
 
 body {
@@ -212,6 +213,7 @@ img {
   justify-content: center;
   fill: var(--color-secondary);
   outline: red;
+  border-radius: 4px;
 }
 
 .benefits-caption,
@@ -322,6 +324,13 @@ img {
 
 .client-icon {
   fill: var(--color-background-primary);
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  width: 170px;
+  height: 92px;
+  margin-right: 30px;
+  border: 1px solid var(--color-client);
 }
 
 /* footer */
