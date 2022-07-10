@@ -108,14 +108,24 @@ img {
   color: var(--color-secondary);
 }
 
+/* .header-contakts-link::before {
+  display: block;
+  width: 20px;
+  height: 20px;
+  
+} */
+
+.header-contakts-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--color-primary);
+  align-items: center;
+  justify-content: center;
+}
+
 .header-contakts-list a,
 .header-list li {
   display: block;
-  margin-right: 50px;
-}
-
-.header-contakts-link .header-link:not(last-child) {
-  margin-right: 50px;
 }
 
 .header-contakts-link {
@@ -136,6 +146,11 @@ img {
 .header-contakts-list {
   display: flex;
   margin-left: auto;
+}
+
+.header-list-link:not(:last-child),
+.contacts-link:not(:last-child) {
+  margin-right: 50px;
 }
 
 /* hero */
@@ -187,6 +202,15 @@ img {
 }
 
 /* benefits */
+
+.benefit-icon {
+  background-color: var(--color-button);
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+}
 
 .benefits-caption,
 .activity-caption,
