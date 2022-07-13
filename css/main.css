@@ -168,6 +168,17 @@ img {
   padding-bottom: 200px;
   text-align: center;
 }
+.overlay {
+  background-image: linear-gradient ( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1600px;
+  max-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .hero-title {
   font-weight: 900;
@@ -176,7 +187,6 @@ img {
   letter-spacing: 0.06em;
   line-height: 1.36;
   margin-bottom: 30px;
-
   color: var(--color-tertiary);
 }
 
