@@ -115,6 +115,8 @@ img {
 }
 
 .header-contakts-icon {
+  width: 20px;
+  height: 20px;
   fill: var(--color-primary);
   align-items: center;
   justify-content: center;
